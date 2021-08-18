@@ -20,7 +20,7 @@ graph {
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">Fiat Bravo</td>
    <td balign="left">male</td>
-   <td balign="left">94-pin</td>
+   <td balign="left">21-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -44,22 +44,10 @@ graph {
     <td port="p6r">6</td>
    </tr>
    <tr>
-    <td port="p7r">7</td>
-   </tr>
-   <tr>
-    <td port="p12r">12</td>
-   </tr>
-   <tr>
-    <td port="p13r">13</td>
-   </tr>
-   <tr>
     <td port="p19r">19</td>
    </tr>
    <tr>
     <td port="p27r">27</td>
-   </tr>
-   <tr>
-    <td port="p28r">28</td>
    </tr>
    <tr>
     <td port="p29r">29</td>
@@ -72,9 +60,6 @@ graph {
    </tr>
    <tr>
     <td port="p55r">55</td>
-   </tr>
-   <tr>
-    <td port="p57r">57</td>
    </tr>
    <tr>
     <td port="p63r">63</td>
@@ -101,12 +86,6 @@ graph {
     <td port="p87r">87</td>
    </tr>
    <tr>
-    <td port="p88r">88</td>
-   </tr>
-   <tr>
-    <td port="p89r">89</td>
-   </tr>
-   <tr>
     <td port="p91r">91</td>
    </tr>
   </table>
@@ -129,7 +108,7 @@ graph {
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
    <td balign="left">Fiat Panda</td>
    <td balign="left">female</td>
-   <td balign="left">64-pin</td>
+   <td balign="left">11-pin</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -138,28 +117,13 @@ graph {
     <td port="p2l">2</td>
    </tr>
    <tr>
-    <td port="p4l">4</td>
-   </tr>
-   <tr>
-    <td port="p5l">5</td>
-   </tr>
-   <tr>
     <td port="p9l">9</td>
-   </tr>
-   <tr>
-    <td port="p11l">11</td>
    </tr>
    <tr>
     <td port="p18l">18</td>
    </tr>
    <tr>
     <td port="p19l">19</td>
-   </tr>
-   <tr>
-    <td port="p21l">21</td>
-   </tr>
-   <tr>
-    <td port="p22l">22</td>
    </tr>
    <tr>
     <td port="p25l">25</td>
@@ -177,31 +141,10 @@ graph {
     <td port="p36l">36</td>
    </tr>
    <tr>
-    <td port="p37l">37</td>
-   </tr>
-   <tr>
-    <td port="p39l">39</td>
-   </tr>
-   <tr>
-    <td port="p43l">43</td>
-   </tr>
-   <tr>
-    <td port="p45l">45</td>
-   </tr>
-   <tr>
-    <td port="p46l">46</td>
-   </tr>
-   <tr>
     <td port="p49l">49</td>
    </tr>
    <tr>
     <td port="p51l">51</td>
-   </tr>
-   <tr>
-    <td port="p53l">53</td>
-   </tr>
-   <tr>
-    <td port="p54l">54</td>
    </tr>
   </table>
  </td></tr>
@@ -231,11 +174,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=none style=filled]
-	K075 [label=<
+	L037 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">K075</td>
+   <td balign="left">L037</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -249,11 +192,53 @@ graph {
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
     <td port="p1l">1</td>
-    <td port="p1r">1</td>
    </tr>
    <tr>
     <td port="p2l">2</td>
-    <td port="p2r">2</td>
+   </tr>
+  </table>
+ </td></tr>
+</table>
+> fillcolor=white margin=0 shape=none style=filled]
+	K055 [label=<
+<table border="0" cellspacing="0" cellpadding="0">
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">K055</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
+   <td balign="left">Accelerator Potentiometer</td>
+   <td balign="left">male</td>
+   <td balign="left">6-pin</td>
+  </tr></table>
+ </td></tr>
+ <tr><td>
+  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
+   <tr>
+    <td port="p1l">1</td>
+    <td>A</td>
+   </tr>
+   <tr>
+    <td port="p2l">2</td>
+    <td>B</td>
+   </tr>
+   <tr>
+    <td port="p3l">3</td>
+    <td>C</td>
+   </tr>
+   <tr>
+    <td port="p4l">4</td>
+    <td>D</td>
+   </tr>
+   <tr>
+    <td port="p5l">5</td>
+    <td>E</td>
+   </tr>
+   <tr>
+    <td port="p6l">6</td>
+    <td>F</td>
    </tr>
   </table>
  </td></tr>
@@ -275,113 +260,7 @@ graph {
  </td></tr>
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
-   <tr>
-    <td port="p7l">7</td>
-   </tr>
   </table>
- </td></tr>
-</table>
-> fillcolor=white margin=0 shape=none style=filled]
-	DUPONT2PIN1 [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">DUPONT2PIN1</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Dupont 2.54mm Housing</td>
-   <td balign="left">female</td>
-   <td balign="left">2-pin</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
-   <tr>
-    <td port="p1l">1</td>
-    <td port="p1r">1</td>
-   </tr>
-   <tr>
-    <td port="p2l">2</td>
-    <td port="p2r">2</td>
-   </tr>
-  </table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Bridged (input wires are soldered)</td>
-  </tr></table>
- </td></tr>
-</table>
-> fillcolor=white margin=0 shape=none style=filled]
-	DUPONT2PIN2 [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">DUPONT2PIN2</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Dupont 2.54mm Housing</td>
-   <td balign="left">female</td>
-   <td balign="left">2-pin</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
-   <tr>
-    <td port="p1l">1</td>
-    <td port="p1r">1</td>
-   </tr>
-   <tr>
-    <td port="p2l">2</td>
-    <td port="p2r">2</td>
-   </tr>
-  </table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Bridged (input wires are soldered)</td>
-  </tr></table>
- </td></tr>
-</table>
-> fillcolor=white margin=0 shape=none style=filled]
-	DUPONT3PIN [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">DUPONT3PIN</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Dupont 2.54mm Housing</td>
-   <td balign="left">female</td>
-   <td balign="left">3-pin</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
-   <tr>
-    <td port="p1l">1</td>
-    <td port="p1r">1</td>
-   </tr>
-   <tr>
-    <td port="p2l">2</td>
-    <td port="p2r">2</td>
-   </tr>
-   <tr>
-    <td port="p3l">3</td>
-    <td port="p3r">3</td>
-   </tr>
-  </table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">Bridged (input wires are soldered)</td>
-  </tr></table>
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=none style=filled]
@@ -460,7 +339,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p6r:e -- M010A_CN:w1:w
-	M010A_CN:w1:e -- DUPONT2PIN2:p2l:w
+	M010A_CN:w1:e -- M010B:p51l:w
 	M010A_CN [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -481,7 +360,7 @@ graph {
    <tr>
     <td>M010A:6</td>
     <td></td>
-    <td>DUPONT2PIN2:2</td>
+    <td>M010B:51</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -594,13 +473,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p68r:e -- M010A_BV:w1:w
-	M010A_BV:w1:e -- DUPONT3PIN:p1l:w
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p68r:e -- M010A_BV:w2:w
-	M010A_BV:w2:e -- DUPONT3PIN:p2l:w
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p68r:e -- M010A_BV:w3:w
-	M010A_BV:w3:e -- DUPONT3PIN:p3l:w
+	M010A_BV:w1:e -- M010B:p36l:w
 	M010A_BV [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -621,7 +494,7 @@ graph {
    <tr>
     <td>M010A:68</td>
     <td></td>
-    <td>DUPONT3PIN:1</td>
+    <td>M010B:36</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -633,9 +506,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>M010A:68</td>
+    <td><!-- 2_in --></td>
     <td></td>
-    <td>DUPONT3PIN:2</td>
+    <td><!-- 2_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
@@ -647,9 +520,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>M010A:68</td>
+    <td><!-- 3_in --></td>
     <td></td>
-    <td>DUPONT3PIN:3</td>
+    <td><!-- 3_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
@@ -667,7 +540,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p70r:e -- M010A_RN:w1:w
-	M010A_RN:w1:e -- DUPONT2PIN1:p1l:w
+	M010A_RN:w1:e -- M010B:p18l:w
 	M010A_RN [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -688,7 +561,7 @@ graph {
    <tr>
     <td>M010A:70</td>
     <td></td>
-    <td>DUPONT2PIN1:1</td>
+    <td>M010B:18</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -901,7 +774,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p49r:e -- M010A_LG:w1:w
-	M010A_LG:w1:e -- M010B:p21l:w
+	M010A_LG:w1:e -- K055:p4l:w
 	M010A_LG [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -922,7 +795,7 @@ graph {
    <tr>
     <td>M010A:49</td>
     <td></td>
-    <td>M010B:21</td>
+    <td>K055:4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -940,7 +813,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p79r:e -- M010A_HV:w1:w
-	M010A_HV:w1:e -- M010B:p54l:w
+	M010A_HV:w1:e -- K055:p6l:w
 	M010A_HV [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -961,7 +834,7 @@ graph {
    <tr>
     <td>M010A:79</td>
     <td></td>
-    <td>M010B:54</td>
+    <td>K055:6</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -979,7 +852,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p30r:e -- M010A_NV:w1:w
-	M010A_NV:w1:e -- M010B:p22l:w
+	M010A_NV:w1:e -- K055:p5l:w
 	M010A_NV [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1000,7 +873,7 @@ graph {
    <tr>
     <td>M010A:30</td>
     <td></td>
-    <td>M010B:22</td>
+    <td>K055:5</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1018,7 +891,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p27r:e -- M010A_LR:w1:w
-	M010A_LR:w1:e -- M010B:p4l:w
+	M010A_LR:w1:e -- K055:p1l:w
 	M010A_LR [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1039,7 +912,7 @@ graph {
    <tr>
     <td>M010A:27</td>
     <td></td>
-    <td>M010B:4</td>
+    <td>K055:1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1057,7 +930,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p55r:e -- M010A_HR:w1:w
-	M010A_HR:w1:e -- M010B:p37l:w
+	M010A_HR:w1:e -- K055:p3l:w
 	M010A_HR [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1078,7 +951,7 @@ graph {
    <tr>
     <td>M010A:55</td>
     <td></td>
-    <td>M010B:37</td>
+    <td>K055:3</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1096,7 +969,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p29r:e -- M010A_NZ:w1:w
-	M010A_NZ:w1:e -- M010B:p5l:w
+	M010A_NZ:w1:e -- K055:p2l:w
 	M010A_NZ [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1117,7 +990,7 @@ graph {
    <tr>
     <td>M010A:29</td>
     <td></td>
-    <td>M010B:5</td>
+    <td>K055:2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1135,7 +1008,7 @@ graph {
 > fillcolor=white margin=0 shape=box style=""]
 	edge [color="#000000:#ffffff:#000000"]
 	M010A:p19r:e -- M010A_ZC:w1:w
-	M010A_ZC:w1:e -- K075:p2l:w
+	M010A_ZC:w1:e -- L037:p2l:w
 	M010A_ZC [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1156,7 +1029,7 @@ graph {
    <tr>
     <td>M010A:19</td>
     <td></td>
-    <td>K075:2</td>
+    <td>L037:2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1172,9 +1045,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p13r:e -- M010A_GN:w1:w
-	M010A_GN:w1:e -- M010B:p45l:w
 	M010A_GN [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1193,9 +1063,9 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>M010A:13</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>M010B:45</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1211,9 +1081,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p12r:e -- M010A_GV:w1:w
-	M010A_GV:w1:e -- M010B:p46l:w
 	M010A_GV [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1232,9 +1099,9 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>M010A:12</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>M010B:46</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1250,9 +1117,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p28r:e -- M010A_LH:w1:w
-	M010A_LH:w1:e -- M010B:p53l:w
 	M010A_LH [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1271,9 +1135,9 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>M010A:28</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>M010B:53</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1289,9 +1153,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p7r:e -- M010A_NR:w1:w
-	M010A_NR:w1:e -- M010B:p5l:w
 	M010A_NR [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1310,9 +1171,9 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>M010A:7</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>M010B:5</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1328,9 +1189,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p57r:e -- M010A_HM:w1:w
-	M010A_HM:w1:e -- M010B:p39l:w
 	M010A_HM [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1349,9 +1207,9 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>M010A:57</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>M010B:39</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1367,9 +1225,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p89r:e -- M010A_V:w1:w
-	M010A_V:w1:e -- M010B:p11l:w
 	M010A_V [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1389,9 +1244,9 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>M010A:89</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>M010B:11</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1414,9 +1269,6 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	M010A:p88r:e -- M010A_M:w1:w
-	M010A_M:w1:e -- M010B:p43l:w
 	M010A_M [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -1436,9 +1288,9 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>M010A:88</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>M010B:43</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
@@ -1461,14 +1313,11 @@ graph {
  </td></tr>
 </table>
 > fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	K075:p1r:e -- K075_LV:w1:w
-	K075_LV:w1:e -- D004:p7l:w
-	K075_LV [label=<
+	L037_LV [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">K075_LV</td>
+   <td balign="left">L037_LV</td>
   </tr></table>
  </td></tr>
  <tr><td>
@@ -1482,119 +1331,12 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>K075:1</td>
+    <td><!-- 1_in --></td>
     <td></td>
-    <td>D004:7</td>
+    <td><!-- 1_out --></td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr><td>&nbsp;</td></tr>
-  </table>
- </td></tr>
-</table>
-> fillcolor=white margin=0 shape=box style=""]
-	edge [color="#000000:#ffffff:#000000"]
-	DUPONT3PIN:p1r:e -- GENERIC:w1:w
-	GENERIC:w1:e -- M010B:p36l:w
-	edge [color="#000000:#ffffff:#000000"]
-	DUPONT3PIN:p2r:e -- GENERIC:w2:w
-	GENERIC:w2:e -- DUPONT2PIN1:p2l:w
-	edge [color="#000000:#ffffff:#000000"]
-	DUPONT3PIN:p3r:e -- GENERIC:w3:w
-	GENERIC:w3:e -- DUPONT2PIN2:p1l:w
-	edge [color="#000000:#ffffff:#000000"]
-	DUPONT2PIN2:p1r:e -- GENERIC:w5:w
-	GENERIC:w5:e -- M010B:p51l:w
-	edge [color="#000000:#ffffff:#000000"]
-	DUPONT2PIN1:p1r:e -- GENERIC:w4:w
-	GENERIC:w4:e -- M010B:p18l:w
-	GENERIC [label=<
-<table border="0" cellspacing="0" cellpadding="0">
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">GENERIC</td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellpadding="3" cellborder="1"><tr>
-   <td balign="left">5x</td>
-   <td balign="left">WH</td>
-   <td balign="left" bgcolor="#FFFFFF" width="4"></td>
-  </tr></table>
- </td></tr>
- <tr><td>
-  <table border="0" cellspacing="0" cellborder="0">
-   <tr><td>&nbsp;</td></tr>
-   <tr>
-    <td>DUPONT3PIN:1</td>
-    <td></td>
-    <td>M010B:36</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>DUPONT3PIN:2</td>
-    <td></td>
-    <td>DUPONT2PIN1:2</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>DUPONT3PIN:3</td>
-    <td></td>
-    <td>DUPONT2PIN2:1</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>DUPONT2PIN1:1</td>
-    <td></td>
-    <td>M010B:18</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="6">
-     <table cellspacing="0" cellborder="0" border="0">
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-     </table>
-    </td>
-   </tr>
-   <tr>
-    <td>DUPONT2PIN2:1</td>
-    <td></td>
-    <td>M010B:51</td>
-   </tr>
-   <tr>
-    <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
