@@ -1,0 +1,13 @@
+Item	Qty	Unit	Designators	Manufacturer	MPN
+Connector, Crimp O Ring, female, 1 pins	1		GROUND		
+Connector, Dupont 2.54mm Housing, female, 2 pins	2		DUPONT2PIN1, DUPONT2PIN2		
+Connector, Dupont 2.54mm Housing, female, 3 pins	1		DUPONT3PIN		
+Connector, Fiat Bravo, male, 94 pins	1		M010A	Tyco	1-1355125-1
+Connector, Fiat Panda, female, 64 pins	1		M010B	AMP	284304-1
+Connector, Fuse Box to Engine Plug, male, 14 pins	1		D004		
+Connector, Wastegate Sensor, male, 2 pins	1		K075		
+Cable, 3 wires	0	m	M010A_BV, M010A_N		
+Cable, 1 wires	0	m	K075_LV, M010A_BN, M010A_BR, M010A_CN, M010A_GN, M010A_GV, M010A_HM, M010A_HR, M010A_HV, M010A_LG, M010A_LH, M010A_LR, M010A_MN, M010A_NR, M010A_NV, M010A_NZ, M010A_RN, M010A_VB, M010A_VN, M010A_ZB, M010A_ZC		
+Cable, 2 wires	0	m	M010A_LN		
+Cable, 1 wires shielded	0	m	M010A_M, M010A_V		
+Cable, 5 wires	0	m	GENERIC		

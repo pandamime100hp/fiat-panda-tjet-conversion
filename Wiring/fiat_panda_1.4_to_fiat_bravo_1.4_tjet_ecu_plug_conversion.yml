@@ -1,0 +1,299 @@
+connectors:
+  M010A:
+    type: Fiat Bravo
+    subtype: male
+    pincount: 94
+    manufacturer: Tyco
+    mpn: 1-1355125-1
+    hide_disconnected_pins: true
+
+  M010B:
+    type: Fiat Panda
+    subtype: female
+    pincount: 64
+    manufacturer: AMP
+    mpn: 284304-1
+    hide_disconnected_pins: true
+
+  GROUND:
+    type: Crimp O Ring
+    subtype: female
+    pinlabels: [N]
+
+  K075:
+    type: Wastegate Sensor
+    subtype: male
+    pincount: 2
+
+  D004: 
+    type: Fuse Box to Engine Plug
+    subtype: male
+    pincount: 14
+    hide_disconnected_pins: true
+
+  DUPONT2PIN1:
+    type: Dupont 2.54mm Housing
+    subtype: female
+    pincount: 2
+    notes: Bridged (input wires are soldered)
+
+  DUPONT2PIN2:
+    type: Dupont 2.54mm Housing
+    subtype: female
+    pincount: 2
+    notes: Bridged (input wires are soldered)
+
+  DUPONT3PIN:
+    type: Dupont 2.54mm Housing
+    subtype: female
+    pincount: 3
+    notes: Bridged (input wires are soldered)
+
+cables:
+  M010A_N:
+    color: BK
+    wirecount: 3
+    shield: false
+
+  M010A_CN: &wiretemplate
+    color: OGBK
+    wirecount: 1
+    shield: false
+
+  M010A_BN:
+    color: WHBK
+    <<: *wiretemplate
+
+  M010A_LN:
+    color: BUBK
+    wirecount: 2
+    shield: false
+
+  M010A_BV:
+    color: WHGN
+    wirecount: 3
+    shield: false
+
+  M010A_RN:
+    color: RDBK
+    <<: *wiretemplate
+
+  M010A_VB:
+    color: GNWH
+    <<: *wiretemplate
+
+  M010A_VN:
+    color: GNBK
+    <<: *wiretemplate
+
+  M010A_BR:
+    color: WHRD
+    <<: *wiretemplate
+
+  M010A_ZB:
+    color: VTWH
+    <<: *wiretemplate
+
+  M010A_MN:
+    color: BNBK
+    <<: *wiretemplate
+
+  M010A_LG:
+    color: BUYE
+    <<: *wiretemplate
+
+  M010A_HV:
+    color: GYGN
+    <<: *wiretemplate
+
+  M010A_NV:
+    color: BKGN
+    <<: *wiretemplate
+
+  M010A_LR:
+    color: BURD
+    <<: *wiretemplate
+
+  M010A_HR:
+    color: GYRD
+    <<: *wiretemplate
+
+  M010A_NZ:
+    color: BKVT
+    <<: *wiretemplate
+
+  M010A_ZC:
+    color: VTOG
+    <<: *wiretemplate
+
+  M010A_GN:
+    color: YEBK
+    <<: *wiretemplate
+
+  M010A_GV:
+    color: YEGN
+    <<: *wiretemplate
+
+  M010A_LH:
+    color: BUGY
+    <<: *wiretemplate
+
+  M010A_NR:
+    color: BKRD
+    <<: *wiretemplate
+
+  M010A_HM:
+    color: GYBN
+    <<: *wiretemplate
+
+  M010A_V:
+    color: GN
+    wirecount: 1
+    shield: true
+
+  M010A_M:
+    color: BN
+    wirecount: 1
+    shield: true
+
+  K075_LV:
+    color: BUGN
+    <<: *wiretemplate
+
+  GENERIC:
+    color: WH
+    wirecount: 5
+
+connections:
+  -
+    - M010A: [1, 2, 4]
+    - M010A_N: [1-3]
+    - GROUND: [1, 1, 1]
+  -
+    - M010A: [3, 5]
+    - M010A_LN: [1, 2]
+    - M010B: [33, 49]
+  -
+    - M010A: [6]
+    - M010A_CN: [1]
+    - DUPONT2PIN2: [2]
+  -
+    - M010A: [72]
+    - M010A_BN: [1]
+    - M010B: [19]
+  -
+    - M010A: [68]
+    - M010A_BV: [1]
+    - DUPONT3PIN: [1]
+  -
+    - DUPONT3PIN: [1]
+    - GENERIC: [1]
+    - M010B: [36]
+  -
+    - M010A: [68]
+    - M010A_BV: [2]
+    - DUPONT3PIN: [2]
+  -
+    - DUPONT3PIN: [2]
+    - GENERIC: [2]
+    - DUPONT2PIN1: [2]
+  -
+    - M010A: [68]
+    - M010A_BV: [3]
+    - DUPONT3PIN: [3]
+  -
+    - DUPONT3PIN: [3]
+    - GENERIC: [3]
+    - DUPONT2PIN2: [1]
+  -
+    - DUPONT2PIN2: [1]
+    - GENERIC: [5]
+    - M010B: [51]
+  -
+    - M010A: [70]
+    - M010A_RN: [1]
+    - DUPONT2PIN1: [1]
+  -
+    - DUPONT2PIN1: [1]
+    - GENERIC: [4]
+    - M010B: [18]
+  -
+    - M010A: [87]
+    - M010A_VB: [1]
+    - M010B: [25]
+  -
+    - M010A: [82]
+    - M010A_VN: [1]
+    - M010B: [9]
+  -
+    - M010A: [91]
+    - M010A_BR: [1]
+    - M010B: [2]
+  -
+    - M010A: [71]
+    - M010A_ZB: [1]
+    - M010B: [35]
+  -
+    - M010A: [27]
+    - M010A_LR: [1]
+    - M010B: [4]
+  -
+    - M010A: [29]
+    - M010A_NZ: [1]
+    - M010B: [5]
+  -
+    - M010A: [55]
+    - M010A_HR: [1]
+    - M010B: [37]
+  -
+    - M010A: [49]
+    - M010A_LG: [1]
+    - M010B: [21]
+  -
+    - M010A: [30]
+    - M010A_NV: [1]
+    - M010B: [22]
+  -
+    - M010A: [79]
+    - M010A_HV: [1]
+    - M010B: [54]
+  -
+    - M010A: [63]
+    - M010A_MN: [1]
+    - M010B: [26]
+  -
+    - M010A: [13]
+    - M010A_GN: [1]
+    - M010B: [45]
+  -
+    - M010A: [12]
+    - M010A_GV: [1]
+    - M010B: [46]
+  -
+    - M010A: [28]
+    - M010A_LH: [1]
+    - M010B: [53]
+  -
+    - M010A: [7]
+    - M010A_NR: [1]
+    - M010B: [5]
+  -
+    - M010A: [57]
+    - M010A_HM: [1]
+    - M010B: [39]
+  -
+    - M010A: [89]
+    - M010A_V: [1]
+    - M010B: [11]
+  -
+    - M010A: [88]
+    - M010A_M: [1]
+    - M010B: [43]
+  -
+    - M010A: [19]
+    - M010A_ZC: [1]
+    - K075: [2]
+  -
+    - K075: [1]
+    - K075_LV: [1]
+    - D004: [7]
