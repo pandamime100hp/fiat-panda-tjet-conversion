@@ -10,143 +10,156 @@ connectors:
   M010B:
     type: Fiat Panda
     subtype: female
-    pins: [2, 9, 18, 19, 25, 26, 33, 35, 36, 49, 51]
+    pins: [2, 4, 5, 9, 18, 19, 21, 22, 25, 26, 33, 35, 36, 37, 49, 51, 54]
     manufacturer: AMP
     mpn: 284304-1
     hide_disconnected_pins: false
 
   GROUND:
-    type: Crimp O Ring
-    subtype: female
-    pinlabels: [N]
+    type: Crimp ferrule
+    style: simple
+    subtype: 7.5 mm2
+    color: OG
 
   L037:
     type: Wastegate Sensor
     subtype: male
+    manufacturer: Bosch
+    mpn: EV1
     pincount: 2
   
   K055:
     type: Accelerator Potentiometer
     subtype: male
-    pincount: 6
     pinlabels: [A, B, C, D, E, F]
-
-  D004: 
-    type: Fuse Box to Engine Plug
-    subtype: male
-    pincount: 14
-    hide_disconnected_pins: true
 
 cables:
   M010A_N:
-    color: BK
+    colors: [BK, BK, BK]
+    gauge: 2.5 mm2
     wirecount: 3
     shield: false
 
-  M010A_CN: &wiretemplate
-    color: OGBK
+  M010A_CN: 
+    colors: [OGBK]
+    gauge: 0.5 mm2
     wirecount: 1
-    shield: false
 
   M010A_BN:
-    color: WHBK
-    <<: *wiretemplate
+    colors: [WHBK]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_LN:
-    color: BUBK
+    colors: [BUBK]
+    gauge: 0.75 mm2
     wirecount: 2
     shield: false
 
   M010A_BV:
-    color: WHGN
-    wirecount: 3
-    shield: false
+    colors: [WHGN]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_RN:
-    color: RDBK
-    <<: *wiretemplate
+    colors: [RDBK]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_VB:
-    color: GNWH
-    <<: *wiretemplate
+    colors: [GNWH]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_VN:
-    color: GNBK
-    <<: *wiretemplate
+    colors: [GNBK]
+    wirecount: 1
 
   M010A_BR:
-    color: WHRD
-    <<: *wiretemplate
+    colors: [WHRD]
+    wirecount: 1
 
   M010A_ZB:
-    color: VTWH
-    <<: *wiretemplate
+    colors: [VTWH]
+    wirecount: 1
 
   M010A_MN:
-    color: BNBK
-    <<: *wiretemplate
+    colors: [BNBK]
+    wirecount: 1
 
   M010A_LG:
-    color: BUYE
-    <<: *wiretemplate
+    colors: [BUYE]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_HV:
-    color: GYGN
-    <<: *wiretemplate
+    colors: [GYGN]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_NV:
-    color: BKGN
-    <<: *wiretemplate
+    colors: [BKGN]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_LR:
-    color: BURD
-    <<: *wiretemplate
+    colors: [BURD]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_HR:
-    color: GYRD
-    <<: *wiretemplate
+    colors: [GYRD]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_NZ:
-    color: BKVT
-    <<: *wiretemplate
+    colors: [BKVT]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_ZC:
-    color: VTOG
-    <<: *wiretemplate
+    colors: [VTOG]
+    gauge: 0.75 mm2
+    wirecount: 1
 
   M010A_GN:
-    color: YEBK
-    <<: *wiretemplate
+    colors: [YEBK]
+    gauge: 0.35 mm2
+    wirecount: 1
 
   M010A_GV:
-    color: YEGN
-    <<: *wiretemplate
+    colors: [YEGN]
+    gauge: 0.5 mm2
+    wirecount: 1
 
   M010A_LH:
-    color: BUGY
-    <<: *wiretemplate
+    colors: [BUGY]
+    gauge: 0.35 mm2
+    wirecount: 1
 
   M010A_NR:
-    color: BKRD
-    <<: *wiretemplate
+    colors: [BKRD]
+    gauge: 0.35 mm2
+    wirecount: 1
 
   M010A_HM:
-    color: GYBN
-    <<: *wiretemplate
+    colors: [GYBN]
+    gauge: 0.35 mm2
+    wirecount: 1
 
   M010A_V:
-    color: GN
+    colors: [GN]
     wirecount: 1
     shield: true
 
   M010A_M:
-    color: BN
+    colors: [BN]
     wirecount: 1
     shield: true
 
   L037_LV:
-    color: BUGN
-    <<: *wiretemplate
+    colors: [BUGN]
+    wirecount: 1
 
 connections:
   -
