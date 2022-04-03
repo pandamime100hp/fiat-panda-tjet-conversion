@@ -2,7 +2,7 @@ connectors:
   M010A:
     type: Fiat Bravo
     subtype: male
-    pins: [1, 2, 3, 4, 5, 6, 7, 12, 13, 19, 27, 28, 29, 30, 49, 55, 57, 63, 68, 70, 71, 72, 79, 82, 87, 88, 89, 91]
+    pins: [1, 2, 3, 4, 5, 6, 7, 11, 12, 13, 19, 27, 28, 29, 30, 49, 55, 57, 63, 64, 68, 70, 71, 72, 79, 82, 87, 88, 89, 91]
     manufacturer: Tyco
     mpn: 1-1355125-1
     hide_disconnected_pins: false
@@ -10,7 +10,7 @@ connectors:
   M010B:
     type: Fiat Panda
     subtype: female
-    pins: [2, 4, 5, 9, 11, 18, 19, 21, 22, 25, 26, 33, 35, 36, 37, 39, 43, 45, 46, 49, 51, 53, 54]
+    pins: [2, 4, 5, 8, 9, 11, 18, 19, 21, 22, 25, 26, 30, 33, 35, 36, 37, 39, 43, 45, 46, 49, 51, 53, 54]
     manufacturer: AMP
     mpn: 284304-1
     hide_disconnected_pins: false
@@ -34,133 +34,171 @@ cables:
     gauge: 2.5 mm2
     wirecount: 3
     shield: false
+    length: 0.5
 
   M010A_CN: 
     colors: [OGBK]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_BN:
     colors: [WHBK]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_LN:
     colors: [BUBK]
     gauge: 0.75 mm2
     wirecount: 2
     shield: false
+    length: 0.16
 
   M010A_BV:
     colors: [WHGN]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_RN:
     colors: [RDBK]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_VB:
     colors: [GNWH]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_VN:
     colors: [GNBK]
     gauge: 0.35 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_BR:
     colors: [WHRD]
     gauge: 0.35 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_ZB:
     colors: [VTWH]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_MN:
     colors: [BNBK]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_LG:
     colors: [BUYE]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_HV:
     colors: [GYGN]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_NV:
     colors: [BKGN]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_LR:
     colors: [BURD]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_HR:
     colors: [GYRD]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_NZ:
     colors: [BKVT]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_ZC:
     colors: [VTOG]
     gauge: 0.75 mm2
     wirecount: 1
+    length: 1.0
 
   M010A_GN:
     colors: [YEBK]
     gauge: 0.35 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_GV:
     colors: [YEGN]
     gauge: 0.5 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_LH:
     colors: [BUGY]
     gauge: 0.35 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_NR:
     colors: [BKRD]
     gauge: 0.35 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_HM:
     colors: [GYBN]
     gauge: 0.35 mm2
     wirecount: 1
+    length: 0.16
 
   M010A_V:
     colors: [GN]
     gauge: 0.5 mm2
     wirecount: 1
     shield: true
+    length: 0.16
 
   M010A_M:
     colors: [BN]
     gauge: 0.5 mm2
     wirecount: 1
     shield: true
+    length: 0.16
+
+  M010A_GL:
+    colors: [YEBU]
+    gauge: 0.5 mm2
+    wirecount: 1
+    length: 0.16
+  
+  M010A_ZR:
+    colors: [VTRD]
+    gauge: 0.5 mm2
+    wirecount: 1
+    length: 0.16
 
   L037_LV:
     colors: [BUGN]
     wirecount: 1
+    length: 1.8
 
 connections:
   -
@@ -263,6 +301,14 @@ connections:
     - M010A: [89]
     - M010A_V: [1]
     - M010B: [11]
+  -
+    - M010A: [11]
+    - M010A_GL: [1]
+    - M010B: [30]
+  -
+    - M010A: [64]
+    - M010A_ZR: [1]
+    - M010B: [8]
   -
     - L037: [1]
     - L037_LV: [1]
