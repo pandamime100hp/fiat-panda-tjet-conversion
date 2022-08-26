@@ -16,6 +16,22 @@ It is, of course, possible to rewire the Panda 100HP "Body" side plug to use the
 
 In the project, I have the wiring diagram that I have made using Wireviz. This tool allows you to create a wiring diagram using a YAML file. The diagram is output in several different methods allowing you to view the diagram on all sorts of platforms. 
 
+## Requirements
+For developing your own Pandapter, you will require the below tools and materials:
 
+1. 20AWG Black & Red Wire - https://s.click.aliexpress.com/e/_DmfLw87
+3. 14AWG Black Wire - https://s.click.aliexpress.com/e/_DmoBZpZ
+4. Pack of Zip Ties - https://s.click.aliexpress.com/e/_De1rM8T
+5. 12v Mini Fuse Adapter - https://s.click.aliexpress.com/e/_DBkYxUn
+6. Wire Sleeving 4mm & 8mm - https://s.click.aliexpress.com/e/_DdtNemn 
+7. Crimping Tool - https://s.click.aliexpress.com/e/_Dc7Sr7l
+8. Dupont Connectors Kit - https://s.click.aliexpress.com/e/_DlZyXN1
+9. Carbon Steel Snips - https://s.click.aliexpress.com/e/_DkAvu6n
+10. ABS Pandapter Plug - 
+
+Whether you plan on using the Pandapter method or wiring the loom yourself, you will need the below indefinitely:
+
+1. Bosch ME7.9.10 ECU - Either from Fiat Bravo 12/150HP or Fiat Punto 120/150HP are the only known p'n'p solutions
+2. Bosch 94 Pin/Way Male Terminal - https://s.click.aliexpress.com/e/_DkjsKpN
 
 
