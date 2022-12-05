@@ -27,7 +27,7 @@ For developing your own Pandapter, you will require the below tools and material
 7. Crimping Tool - https://s.click.aliexpress.com/e/_Dc7Sr7l
 8. Dupont Connectors Kit - https://s.click.aliexpress.com/e/_DlZyXN1
 9. Carbon Steel Snips - https://s.click.aliexpress.com/e/_DkAvu6n
-10. ABS Pandapter Plug - 
+10. ABS Pandapter Plug - https://www.etsy.com/listing/1363264595/fiat-panda-100hp-tjet-conversion-3d
 
 Whether you plan on using the Pandapter method or wiring the loom yourself, you will need the below indefinitely:
 
