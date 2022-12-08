@@ -25,15 +25,17 @@ For developing your own Pandapter, you will require the below tools and material
 3. 12v Mini Fuse Adapter - https://s.click.aliexpress.com/e/_DBkYxUn
 
 ### Tools:
-1. Wire Sleeving 4mm & 8mm - https://s.click.aliexpress.com/e/_DdtNemn 
-2. HS-30J Crimping Jaw - https://s.click.aliexpress.com/e/_DestCWJ
-3. SN-58B Crimping Jaw - https://s.click.aliexpress.com/e/_DDp5Pjd
-4. Carbon Steel Snips - https://s.click.aliexpress.com/e/_DkAvu6n
+1. HS-30J Crimping Jaw - https://s.click.aliexpress.com/e/_DestCWJ
+2. SN-58B Crimping Jaw - https://s.click.aliexpress.com/e/_DDp5Pjd
+3. Carbon Steel Snips - https://s.click.aliexpress.com/e/_DkAvu6n
+
+### Components:
+1. ABS Pandapter Plug - https://www.etsy.com/listing/1363264595/fiat-panda-100hp-tjet-conversion-3d
+2. Bosch 94 Pin/Way Male Terminal - https://s.click.aliexpress.com/e/_DkjsKpN
 
 ### Materials:
 1. Pack of Zip Ties - https://s.click.aliexpress.com/e/_De1rM8T
-2. Dupont Connectors Kit - https://s.click.aliexpress.com/e/_DlZyXN1
-3. ABS Pandapter Plug - https://www.etsy.com/listing/1363264595/fiat-panda-100hp-tjet-conversion-3d
-4. Bosch 94 Pin/Way Male Terminal - https://s.click.aliexpress.com/e/_DkjsKpN
+2. Wire Sleeving 4mm & 8mm - https://s.click.aliexpress.com/e/_DdtNemn 
+3. Dupont Connectors Kit - https://s.click.aliexpress.com/e/_DlZyXN1
 
 
