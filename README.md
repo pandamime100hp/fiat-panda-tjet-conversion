@@ -19,19 +19,21 @@ In the project, I have the wiring diagram that I have made using Wireviz. This t
 ## Requirements
 For developing your own Pandapter, you will require the below tools and materials:
 
+###Wires:
 1. 20AWG Black & Red Wire - https://s.click.aliexpress.com/e/_DmfLw87
-3. 14AWG Black Wire - https://s.click.aliexpress.com/e/_DmoBZpZ
-4. Pack of Zip Ties - https://s.click.aliexpress.com/e/_De1rM8T
-5. 12v Mini Fuse Adapter - https://s.click.aliexpress.com/e/_DBkYxUn
-6. Wire Sleeving 4mm & 8mm - https://s.click.aliexpress.com/e/_DdtNemn 
-7. Crimping Tool - https://s.click.aliexpress.com/e/_Dc7Sr7l
-8. Dupont Connectors Kit - https://s.click.aliexpress.com/e/_DlZyXN1
-9. Carbon Steel Snips - https://s.click.aliexpress.com/e/_DkAvu6n
-10. ABS Pandapter Plug - https://www.etsy.com/listing/1363264595/fiat-panda-100hp-tjet-conversion-3d
+2. 14AWG Black Wire - https://s.click.aliexpress.com/e/_DmoBZpZ
+3. 12v Mini Fuse Adapter - https://s.click.aliexpress.com/e/_DBkYxUn
 
-Whether you plan on using the Pandapter method or wiring the loom yourself, you will need the below indefinitely:
+###Tools:
+1. Wire Sleeving 4mm & 8mm - https://s.click.aliexpress.com/e/_DdtNemn 
+2. HS-30J Crimping Jaw - https://s.click.aliexpress.com/e/_DestCWJ
+3. SN-58B Crimping Jaw - https://s.click.aliexpress.com/e/_DDp5Pjd
+4. Carbon Steel Snips - https://s.click.aliexpress.com/e/_DkAvu6n
 
-1. Bosch ME7.9.10 ECU - Either from Fiat Bravo 12/150HP or Fiat Punto 120/150HP are the only known p'n'p solutions
-2. Bosch 94 Pin/Way Male Terminal - https://s.click.aliexpress.com/e/_DkjsKpN
+###Materials:
+1. Pack of Zip Ties - https://s.click.aliexpress.com/e/_De1rM8T
+2. Dupont Connectors Kit - https://s.click.aliexpress.com/e/_DlZyXN1
+3. ABS Pandapter Plug - https://www.etsy.com/listing/1363264595/fiat-panda-100hp-tjet-conversion-3d
+4. Bosch 94 Pin/Way Male Terminal - https://s.click.aliexpress.com/e/_DkjsKpN
 
 
