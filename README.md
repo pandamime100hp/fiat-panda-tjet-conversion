@@ -37,5 +37,6 @@ For developing your own Pandapter, you will require the below tools and material
 1. Pack of Zip Ties - https://s.click.aliexpress.com/e/_De1rM8T
 2. Wire Sleeving 4mm & 8mm - https://s.click.aliexpress.com/e/_DdtNemn 
 3. Dupont Connectors Kit - https://s.click.aliexpress.com/e/_DlZyXN1
+Disclaimer: The above links are affiliated links. If you use one of these links to purchase the bits and pieces required to build a Pandapter, this gives me a percentage of the final sale. This helps my R&D for more great things to be developed! 
 
 
